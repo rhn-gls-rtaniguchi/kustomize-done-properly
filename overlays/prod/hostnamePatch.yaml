@@ -1,0 +1,3 @@
+- op: replace
+  path: /spec/rules/0/host
+  value: "deploying-practice.apps.ocp4.example.com"
