@@ -44,6 +44,7 @@ spec:
     - host: hello.apps.ocp4.example.com
       http:
         paths:
+        pathType: Prefix
           - backend:
               serviceName: hello
               servicePort: 8080
