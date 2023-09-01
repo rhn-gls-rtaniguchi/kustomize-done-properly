@@ -44,11 +44,11 @@ spec:
     - host: hello.apps.ocp4.example.com
       http:
         paths:
-        pathType: Prefix
-          - backend:
-              service:
-                name: hello
-                port: 
-                  number: 8080
+          pathType: Prefix
+          backend:
+            service:
+              name: hello
+              port: 
+                number: 8080
 ---
 
